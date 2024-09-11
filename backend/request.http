@@ -1,0 +1,100 @@
+POST http://localhost:3000/danhmuc
+Content-Type: application/json
+
+{
+    "name": "labtop"
+}
+###
+GET http://localhost:3000/danhmuc/6644cccf9e33d294e1321c52
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/danhmuc/663b2024608b0d8d5fc9d2ea
+Content-Type: application/json
+
+{
+    "name": "xe hơi"
+}
+###
+DELETE http://localhost:3000/danhmuc/663b2024608b0d8d5fc9d2ea
+Content-Type: application/json
+
+
+###
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+    "name": "labtop gaming 3",
+    "price": 1000000,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thegioididong.com%2Fdtdd-apple-iphone&psig=AOvVaw2Ydo3t5Ylmj42eUwLizL1h&ust=1715871486706000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiD0sb1j4YDFQAAAAAdAAAAABAE",
+    "description":"hay",
+    "quality": 23,
+    "id_danhmuc": "663b2024608b0d8d5fc9d2ea"
+    
+}
+###
+GET http://localhost:3000/sanpham
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/sanpham/6645df03f7367e76836983f1
+Content-Type: application/json
+
+{
+    "name": "labtopp gaming 33",
+    "price": 2000000
+}
+###
+DELETE http://localhost:3000/sanpham/664af69cefe688581586714a
+Content-Type: application/json
+###
+GET http://localhost:3000/sanpham/6645df03f7367e76836983f1
+###
+GET http://localhost:3000/user
+Content-Type: application/json
+###
+POST http://localhost:3000/user/signup
+Content-Type: application/json
+
+{
+    "fullname": "tri",
+    "email": "tri@gmail.com",
+    "password": "123",
+    "phone": "0987654321",
+    "address": "Hà Nội"
+}
+###
+PUT http://localhost:3000/user/6655f9d42dd3a23f82e71a02
+Content-Type: application/json
+
+{
+    "fullname": "minh",
+    "password": "123",
+    "role":"user"
+}
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+   "email":"tri@gmail.com",
+   "password":"triminh123" 
+}
+###
+GET  http://localhost:3000/user/6655f9d42dd3a23f82e71a02
+Content-Type: application/json
+
+###
+GET http://localhost:3000/sanpham/danhmuc/663b200a608b0d8d5fc9d2e8
+Content-Type: application/json
+###
+GET http://localhost:3000/send-mail
+Content-Type: application/json
+###
+GET http://localhost:3000//check-session
+Content-Type: application/json
+###
+GET http://localhost:3000//productdetail/6645df03f7367e76836983f1
+Content-Type: application/json
+
